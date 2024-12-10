@@ -11,7 +11,7 @@ class PWAManager {
                     const permission = await Notification.requestPermission();
                     console.log('Notification permission:', permission);
                 }
-                
+
                 return registration;
             } catch (error) {
                 console.error('ServiceWorker registration failed:', error);
@@ -32,7 +32,7 @@ class UIManager {
         // Add app shell elements
         document.body.innerHTML = `
             <div class="app-header">
-                <h1>DeshDrawChat</h1>
+                <h1>HenryDrawChat</h1>
                 <div class="connection-status" id="connectionStatus"></div>
                 <button id="installPWA" class="hidden">Install App</button>
             </div>
@@ -234,7 +234,7 @@ class MessagingApp {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer API-KEY-HERE`
+                    'Authorization': 'Bearer sk-svcacct-yBAI-3aEYm-sxFrMdtHlnrBuM36ZlTN6L2dzhElCmbNLEeHsfVXbdixLNQ3YhTeePmQKMG8T3BlbkFJX2mXFoHYOSRMt-G3qyPB28GNVx5HNEMLwBckd-8f_Me5F4i64YzWBr5ZCWOOmLVySzv8lyQA'
                 },
                 body: JSON.stringify({
                     model: "gpt-4o-mini",

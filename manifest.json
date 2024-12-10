@@ -1,13 +1,13 @@
 {
-    "name": "Desh Draw & Chat PWA",
-    "short_name": "DeshDrawChat",
+    "name": "Henry Draw & Chat PWA",
+    "short_name": "HenryDrawChat",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#317EFB",
     "icons": [
         {
-            "src": "DeshCapstone.png",
+            "src": "HenryCapstone.png",
             "sizes": "192x192",
             "type": "image/png"
         },
